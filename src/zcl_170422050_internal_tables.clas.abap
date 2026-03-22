@@ -9,8 +9,6 @@ CLASS zcl_170422050_internal_tables DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-
-
 CLASS zcl_170422050_internal_tables IMPLEMENTATION.
 METHOD if_oo_adt_classrun~main.
 

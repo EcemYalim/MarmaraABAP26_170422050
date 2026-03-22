@@ -21,7 +21,6 @@ CLASS zcl_170422050_select_cds DEFINITION
 ENDCLASS.
 
 
-
 CLASS zcl_170422050_select_cds IMPLEMENTATION.
 
   METHOD get_result_from_cds.
