@@ -70,14 +70,14 @@ CLASS zcl_170422050_rest_client_02 IMPLEMENTATION.
   METHOD user_update.
     rv_text = execute_request(
       iv_method = 'PUT'
-      iv_url    = gc_base_url && '/user/hilmiozbay'
+      iv_url    = gc_base_url && '/user/hilmiozbay60'
       iv_body   = build_user_json( ) ).
   ENDMETHOD.
 
   METHOD user_delete.
     rv_text = execute_request(
       iv_method = 'DELETE'
-      iv_url    = gc_base_url && '/user/demo_123456789' ).
+      iv_url    = gc_base_url && '/user/hilmiozbay60' ).
   ENDMETHOD.
 
 
@@ -136,7 +136,7 @@ CLASS zcl_170422050_rest_client_02 IMPLEMENTATION.
       '"lastName": "Ozbay",' &&
       '"email": "hilmi@gmail.com",' &&
       '"password": "12345",' &&
-      '"phone": "123456789",' &&
+      '"phone": "12345678912",' &&
       '"userStatus": 1' &&
       '}'.
   ENDMETHOD.
